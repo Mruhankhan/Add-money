@@ -45,13 +45,6 @@ body {
   margin-top: 80%;
   margin-left: 0%;
 }
-@keyframes div-animation-spin-up {
-  50% {
-    transform: rotate(180deg);
-    border-radius: 30%;
-    height: 4vh;
-  }
-}
 @keyframes div-animation-spin-full {
   10% {
     transform: rotate(36deg);
@@ -88,4 +81,5 @@ button {
   height: 6vh;
   width: 6vw;
   text-align: center;
+  align-items: flex-start;
 }
