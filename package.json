@@ -55,7 +55,7 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "start": "nodemon index.j"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
