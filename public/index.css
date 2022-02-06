@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 * {
   margin: 5px;
 }
@@ -87,4 +89,9 @@ button {
   width: 6vw;
   text-align: center;
   align-items: flex-start;
+  font: Lato;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(77, 192, 77);
+  font-size: 110%;
+  cursor: pointer;
 }
