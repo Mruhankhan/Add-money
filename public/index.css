@@ -25,6 +25,7 @@ body {
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-name: div-animation-spin-full;
+  position: absolute;
 }
 #div-3 {
   width: 100px;
