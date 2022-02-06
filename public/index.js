@@ -13,7 +13,7 @@ buttonTwo.addEventListener("click", () => {
 
 buttonThree.addEventListener("click", () => {
   let divOne = document.getElementById("div-1")
-  typeColor = ["red", "yellow", "blue", "brown", "orange", "green", "violet", "carnation pink", "yellow orange", "blue green", "red violet", "red orange", "yellow green", "blue violet", "white", "violet red", "dandelion", "cerulean", "apricot", "scarlet", "green yellow", "indigo and gray"]
+  typeColor = ["red", "yellow", "blue", "brown", "orange", "green", "pink"]
   let colors = typeColor[Math.floor(Math.random() * typeColor.length)]
   divOne.style.backgroundColor = colors
 })
