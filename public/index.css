@@ -8,13 +8,15 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0%;
+  background-color: pink;
 }
+
 #div-1 {
   display: flex;
   flex-direction: column;
   width: 500px;
   height: 500px;
-  background-color: lightblue;
+  background-color: yellow;
   left: 0;
   top: 0;
   bottom: 0;
