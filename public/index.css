@@ -1,3 +1,6 @@
+* {
+  margin: 5px;
+}
 body {
   display: flex;
   text-align: center;
@@ -17,6 +20,9 @@ body {
   margin: auto;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: div-animation-spin-full;
 }
 #div-3 {
   width: 100px;
@@ -38,4 +44,48 @@ body {
   background-color: black;
   margin-top: 80%;
   margin-left: 0%;
+}
+@keyframes div-animation-spin-up {
+  50% {
+    transform: rotate(180deg);
+    border-radius: 30%;
+    height: 4vh;
+  }
+}
+@keyframes div-animation-spin-full {
+  10% {
+    transform: rotate(36deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  30% {
+    transform: rotate(108deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  70% {
+    transform: rotate(252deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  90% {
+    transform: rotate(324deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+button {
+  height: 6vh;
+  width: 6vw;
+  text-align: center;
 }
